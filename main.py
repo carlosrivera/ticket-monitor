@@ -69,5 +69,5 @@ def save_user(plate, serial, email):
             'notified': False,
         })
 
-save_user('JKG6000', '02291', 'me@example.im')
+save_user('AAA0000', '12345', 'me@example.im')
 get_users_tickets()
