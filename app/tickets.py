@@ -8,7 +8,7 @@ from tinydb import TinyDB, Query
 
 data_file = '../data/db.json'
 
-def get_tickets(plate = 'JKG6000', serial = '02291'):
+def get_tickets(plate = 'XXX0000', serial = '00000'):
     regex = r"var adeudo = '(.*?)';"
 
     response = requests.post(
@@ -80,7 +80,7 @@ def get_users_tickets():
 
     return tickets
 
-def get_user_tickets(plate = 'JKG6000', serial = '02291'):
+def get_user_tickets(plate = 'XXX0000', serial = '00000'):
     tickets = []
 
     if plate and serial:

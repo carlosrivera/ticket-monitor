@@ -1,6 +1,6 @@
 # API for ticket monitoring in Jalisco State
 
-# Usage
+## Usage
 Create an `.env` file at root containing your [SparkPost](https://developers.sparkpost.com/) API key:
 
 ```
@@ -14,7 +14,7 @@ docker-compose up
 docker-compose build
 ```
 
-# License
+## License
 MIT License
 
 Copyright (c) 2018 Carlos
