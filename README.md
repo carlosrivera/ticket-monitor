@@ -1,6 +1,13 @@
 # API for ticket monitoring in Jalisco State
 
 # Usage
+Create an `.env` file at root containing your [SparkPost](https://developers.sparkpost.com/) API key:
+
+```
+SPARKPOST_API_KEY=insert_your_api_key
+```
+
+Build and run the docker image.
 
 ```
 docker-compose up
