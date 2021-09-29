@@ -15,7 +15,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.1",
     "axios": "^0.18.0",
     "bulma": "^0.7.1",
-    "i": "^0.3.6",
+    "i": "^0.3.7",
     "npm": "^6.4.1",
     "vue": "^2.5.2",
     "vue-bulma-emoji": "0.0.2",
